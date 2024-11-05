@@ -11,6 +11,11 @@ app.post('/register', (req, res) => {
   // code register in here
 })
 
+app.get('/home', (req, res) => {
+  res.send('GET request to the homepage')
+  // code home in here
+})
+
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
 })
