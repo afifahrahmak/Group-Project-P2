@@ -16,6 +16,11 @@ app.post('/login', (req, res) => {
   // code login in here
 })
 
+app.get('/home', (req, res) => {
+  res.send('GET request to the homepage')
+  // code home in here
+})
+
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
 })
