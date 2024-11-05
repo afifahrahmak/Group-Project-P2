@@ -7,7 +7,7 @@ app.get('/', (req, res) => {
 })
 
 app.post('/register', (req, res) => {
-  res.send('POST request to the homepage')
+  res.status(200).send('POST request to the homepage')
   // code register in here
 })
 
