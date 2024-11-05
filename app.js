@@ -11,6 +11,11 @@ app.post('/register', (req, res) => {
   // code register in here
 })
 
+app.post('/login', (req, res) => {
+  res.send('POST request to the homepage')
+  // code login in here
+})
+
 app.get('/home', (req, res) => {
   res.send('GET request to the homepage')
   // code home in here
